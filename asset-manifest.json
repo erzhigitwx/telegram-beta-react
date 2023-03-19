@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/telegram-beta-react/static/css/main.35ee5456.css",
+    "main.js": "/telegram-beta-react/static/js/main.2278d505.js",
+    "index.html": "/telegram-beta-react/index.html",
+    "main.35ee5456.css.map": "/telegram-beta-react/static/css/main.35ee5456.css.map",
+    "main.2278d505.js.map": "/telegram-beta-react/static/js/main.2278d505.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35ee5456.css",
+    "static/js/main.2278d505.js"
+  ]
+}
