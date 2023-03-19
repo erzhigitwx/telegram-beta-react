@@ -1,0 +1,25 @@
+@import "./mixins.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1s ease;
+}
+body {
+  background-color: #333333;
+  @include text(24px);
+}
+input:focus {
+  outline: none;
+}
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: gray;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: #0088cc;
+  border-radius: 20px;
+}

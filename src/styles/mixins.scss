@@ -1,0 +1,6 @@
+@mixin text($fontSize){
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: $fontSize;
+    color: #ffffff;
+}

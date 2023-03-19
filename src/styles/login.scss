@@ -1,0 +1,32 @@
+@import "./mixins.scss";
+
+.login {
+  height: calc(100vh - 80px);
+  width: 100%;
+  display: grid;
+  place-items: center;
+  .login-content {
+    width: 400px;
+    height: 100px;
+    background-color: #c8c8c8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    &:hover {
+      background-color: gray;
+    }
+    &:active {
+      background-color: black;
+    }
+  }
+}
+@media (max-width: 440px) {
+  .login {
+    .login-content {
+      width: 320px;
+    }
+  }
+}
