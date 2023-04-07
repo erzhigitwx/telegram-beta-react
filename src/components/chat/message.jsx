@@ -25,7 +25,7 @@ const Message = function ({ message, time, name, avatar }) {
                 <img
                   src={message}
                   alt="selected file"
-                  className="message-select__image"
+                  className="message-select__image message-select__image-another"
                   onClick={() => clickImageHandler()}
                 />
               )) || <p className="message-text">{message}</p>}

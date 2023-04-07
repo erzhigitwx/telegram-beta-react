@@ -306,6 +306,9 @@
               .message-select__image {
                 max-width: calc(78vw - 40px);
               }
+              .message-select__image-another{
+                max-width: calc(78vw - 60px);
+              }
             }
             .chat-message__another {
               max-width: 70vw;
